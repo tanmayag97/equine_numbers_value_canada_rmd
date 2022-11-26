@@ -3,8 +3,8 @@ title: "Historical horse population in Canada"
 output: 
   html_document:
     toc: TRUE
-# params: 
-#   province: "British Columbia"
+params:
+  province: "British Columbia"
   
 ---
 
