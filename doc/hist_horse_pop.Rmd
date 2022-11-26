@@ -5,6 +5,9 @@ output:
     toc: TRUE
 params:
   province: "British Columbia"
+bibliography:
+  references.bib
+  
   
 ---
 
@@ -38,7 +41,7 @@ Horse population data were sourced from the [Government of Canada's Open Data we
 
 ## Methods
 
-The R programming language and the following R packages were used to perform the analysis: knitr and tidyverse. The code used to perform the analysis and create this report can be found here: https://github.com/ttimbers/equine_numbers_value_canada_rmd.
+The R programming language and the following R packages were used to perform the analysis: knitr [@knitr] and [@tidy]. The code used to perform the analysis and create this report can be found here: https://github.com/ttimbers/equine_numbers_value_canada_rmd.
 
 
 ## Results
